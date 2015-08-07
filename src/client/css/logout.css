@@ -14,10 +14,13 @@
 }
 
 @media(max-width:825px){
-	#Logout{
+	#logout-container{
 		float:none;
+		clear:both;
 		margin:auto;
 		text-align:center;
+		margin-left:50%;
+		margin-right:50%;
 	}
 }
 

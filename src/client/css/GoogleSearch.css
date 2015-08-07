@@ -14,9 +14,18 @@
 @media(max-width:825px){
 	#google_search_box{
 		float:none;
+		clear:both;
 		margin:auto;
 		text-align:center;
+		margin-left:50%;
+		margin-right:50%;
+
 	}
+	.glyphicon-search{
+	position: relative;
+	left: 250px;
+	top: -26px;
+}
 
 }
 
