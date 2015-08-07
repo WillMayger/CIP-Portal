@@ -7,12 +7,10 @@
 
 @media(max-width:1065px){
 	#google_search_box{
-	width:300px;
-	float:left;
-	margin-left:13%;
-	padding-top:20px;
+	margin-left:2%;
 	}
 }
+
 
 .glyphicon {
 	color:#0066A1;
