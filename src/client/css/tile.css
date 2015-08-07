@@ -36,6 +36,8 @@
 @media (max-width:380px){
     .tileList {
         width: 200px;
+        height: 700px;
+
     } 
 }
 
