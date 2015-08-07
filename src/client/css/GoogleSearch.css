@@ -29,7 +29,7 @@
 	top: -26px;
 }
 
-@media(max-width:855px){
+@media(max-width:873px){
 	#google_search_box{
 		float:none;
 		clear:both;

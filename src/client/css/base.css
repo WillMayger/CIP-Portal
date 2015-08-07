@@ -5,7 +5,7 @@
     margin-bottom: 0px;
 }
 
-@media(max-width:855px){
+@media(max-width:873px){
     .navbar-header{
         clear: both;
         width: 200px;
