@@ -14,6 +14,7 @@ var GoogleSearchBox = React.createClass({
         return (
             <div className="google_search">
                 <input type="text" value="" placeholder="Type here to search google" id="google_search_input">
+                </input>
                 <button id="google_search_button" onClick={this.GetValueFromGoogleSearchInput}></button>
             </div>
         );
