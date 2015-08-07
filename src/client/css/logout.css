@@ -17,6 +17,7 @@
 	#logout-container{
 		float:none;
 		clear:both;
+		width:200px;
 		margin:auto;
 		text-align:center;
 		margin-left:50%;
