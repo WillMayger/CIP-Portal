@@ -10,4 +10,12 @@
 .Logout{
     text-align: right;
     padding-top: 8px;
+
 }
+
+@media(max-width:825px){
+	.Logout{
+		margin-top: -70px;
+	}
+}
+
