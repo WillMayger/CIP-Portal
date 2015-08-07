@@ -5,13 +5,9 @@ var React = require('../../../../node_modules/react/react.js');
 var GoogleSearchBox = React.createClass({
     GetValueFromGoogleSearchInput: function(event){
     	var GoogleSearch = document.getElementById("google_search_input");
-        if (GoogleSearch.value.toString() != ""){
-
-
     	var UserSearchQuery = GoogleSearch.value.toString().replace(/ /g,"+");
     	var GET = "http://google.com/#q=" + UserSearchQuery;
     	window.open(GET, '_blank');
-    };
     },
     //rendering the html elements with the state.clock
     render: function() {
@@ -19,7 +15,9 @@ var GoogleSearchBox = React.createClass({
             <div className="google_search">
                 <input type="text" value="" placeholder="Type here to search google" name="google_search_input" id="google_search_input">
                 </input>
+                <div>
                 <button id="google_search_button" onClick={this.GetValueFromGoogleSearchInput}></button>
+                </div>
             </div>
         );
     }
