@@ -22,7 +22,7 @@ var GoogleSearchBox = React.createClass({
             <div className="google_search">
                 <input type="text" className="form-control" value={this.state.value} onChange={this.handleChange} placeholder="Type here to search google" name="google_search_input" id="google_search_input">
                 </input>
-                <span onClick={this.GetValueFromGoogleSearchInput} class="input-group-btn"><span class="glyphicon glyphicon-search" aria-hidden="true" ></span></span>
+                <span onClick={this.GetValueFromGoogleSearchInput} className="input-group-btn"><span className="glyphicon glyphicon-search" aria-hidden="true" ></span></span>
             </div>
         );
     }
