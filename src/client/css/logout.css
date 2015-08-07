@@ -14,7 +14,7 @@
 }
 
 @media(max-width:825px){
-	.Logout{
+	#Logout{
 		margin-top: -70px;
 	}
 }
