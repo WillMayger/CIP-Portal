@@ -20,12 +20,9 @@
 		text-align:center;
 
 	}
-	.glyphicon-search{
-	position: relative;
-	left: 120px;
-	top: -26px;
-}
-
+	.glyphicon .glyphicon-search{
+		left: 120px;
+	}
 }
 
 
@@ -38,7 +35,7 @@
 .glyphicon:hover {
 	color:#002b42;
 }
-.glyphicon-search{
+.glyphicon-search{	
 	position: relative;
 	left: 310px;
 	top: -26px;
