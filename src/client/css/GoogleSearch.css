@@ -14,7 +14,16 @@
 @media(max-width:825px){
 	#google_search_box{
 		margin-left: 30%;
+		float:right;
+		width:150px;
 	}
+	#google_search_box input{
+		width:100%;
+	}
+
+
+
+
 }
 
 
