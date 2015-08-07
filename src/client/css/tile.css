@@ -33,6 +33,13 @@
     } 
 }
 
+@media (max-width:380px){
+    .tileList {
+        width: 200px;
+    } 
+}
+
+
 #tileTitle {
     color:#006DAB;
     font-size: 32px;
