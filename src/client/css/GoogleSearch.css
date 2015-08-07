@@ -18,13 +18,11 @@
 		width:200px;
 		margin:auto;
 		text-align:center;
-		margin-left:50%;
-		margin-right:50%;
 
 	}
 	.glyphicon-search{
 	position: relative;
-	left: 250px;
+	left: 120px;
 	top: -26px;
 }
 
