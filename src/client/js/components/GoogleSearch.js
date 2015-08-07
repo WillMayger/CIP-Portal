@@ -9,14 +9,21 @@ var GoogleSearchBox = React.createClass({
     	var GET = "http://google.com/#q=" + UserSearchQuery;
     	window.open(GET, '_blank');
     },
+    getInitialState() {
+        return { value: '' };
+    },
+
+    handleChange(event) {
+        this.setState({value: event.target.value});
+    },
     //rendering the html elements with the state.clock
     render: function() {
         return (
             <div className="google_search">
-                <input type="text" value="" placeholder="Type here to search google" name="google_search_input" id="google_search_input">
+                <input type="text" value={this.state.value} placeholder="Type here to search google" name="google_search_input" id="google_search_input">
                 </input>
                 <div>
-                <button id="google_search_button" onClick={this.GetValueFromGoogleSearchInput}></button>
+                    <button id="google_search_button" onClick={this.GetValueFromGoogleSearchInput}></button>
                 </div>
             </div>
         );
