@@ -22,12 +22,12 @@ describe('GoogleSearch', function() {
         var ExpectedLength = 1;
 
         //getting the rendered component with the html element you want to look in
-        var GoogleSearchBoxRendered = TestUtils.findRenderedDOMComponentWithTag(
-            GoogleSearchBox, 'input');
+        var GoogleSearchBoxRendered = TestUtils.findRenderedDOMComponentWithClass(
+            GoogleSearchBox, 'google_search');
 	
         var HTML = document.createElement('div');
 
-        HTML.innerHTML = GoogleSearchBoxRendered.findDOMNode().innerHTML;
+        HTML.innerHTML = GoogleSearchBoxRendered.getDOMNode().innerHTML;
 
         //AssertEqual (compare what you are expecting with what you actually have)
         expect(HTMLObject.getElementsByTagName('input').length.parseInt()).toEqual(ExpectedLength);
