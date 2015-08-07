@@ -4,6 +4,16 @@
 	margin-left:23%;
 	padding-top:20px;
 }
+
+@media(max-width:1065px){
+	#google_search_box{
+	width:300px;
+	float:left;
+	margin-left:13%;
+	padding-top:20px;
+	}
+}
+
 .glyphicon {
 	color:#0066A1;
 	font-size: 18px;
