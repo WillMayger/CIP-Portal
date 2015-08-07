@@ -2,15 +2,18 @@
 var React = require('react');
 var moment = require('moment');
 
-
+var GoogleSearchBox = require('./components/GoogleSearch.js');
 var DateBox = require('./components/DateBox.js');
 var NewsBox = require('./components/news.js').NewsBox;
 var TileBox = require('./components/tiles.js').TileBox;
 var LogoutBox = require('./components/Logout.js').LogoutBox;
-var GoogleSearchBox = require('./components/GoogleSearch.js');
 
 
 
+React.render(
+  <GoogleSearchBox />,
+  document.getElementById('google_search_box')
+);
 
 React.render(
   <DateBox />,
@@ -38,7 +41,3 @@ React.render(
 );
 
 
-React.render(
-  <GoogleSearchBox />,
-  document.getElementById('google_search_box')
-);
