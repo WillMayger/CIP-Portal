@@ -7,6 +7,7 @@ var DateBox = require('./components/DateBox.js');
 var NewsBox = require('./components/news.js').NewsBox;
 var TileBox = require('./components/tiles.js').TileBox;
 var LogoutBox = require('./components/Logout.js').LogoutBox;
+var GoogleSearchBox = require('./components/GoogleSearch.js');
 
 
 
@@ -34,4 +35,10 @@ var data = [{
 React.render(
   <LogoutBox data={data} />,
   document.getElementById('logout')
+);
+
+
+React.render(
+  <GoogleSearchBox />,
+  document.getElementById('google_search_box')
 );
