@@ -20,8 +20,8 @@
 		text-align:center;
 
 	}
-	.glyphicon .glyphicon-search{
-		left: 120px;
+	span .glyphicon .glyphicon-search{
+		left: 120px !important;
 	}
 }
 
