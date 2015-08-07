@@ -5,13 +5,16 @@
 	padding-top:15px;
 }
 .glyphicon {
+	color:#0066A1;
 	font-size: 18px;
 	z-index: 20;
 	cursor: pointer;
 }
-
+.glyphicon:hover {
+	color:#002b42;
+}
 .glyphicon-search{
 	position: relative;
-	right: -270px;
-	top: -27px;
+	left: 310px;
+	top: -26px;
 }
