@@ -20,7 +20,8 @@
 		text-align:center;
 
 	}
-	span .glyphicon .glyphicon-search{
+	#google_search_box div span span .glyphicon-search{
+		left: 0px !important;
 		left: 120px !important;
 	}
 }
