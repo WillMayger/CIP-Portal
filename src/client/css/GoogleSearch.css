@@ -3,3 +3,13 @@
 	float:left;
 	margin-left:23%;
 }
+.glyphicon {
+	font-size: 18px;
+	z-index: 20;
+	cursor: pointer;
+}
+
+.glyphicon-search{
+	position: relative;
+	right: 30px;
+}
