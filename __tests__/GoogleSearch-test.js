@@ -30,6 +30,6 @@ describe('GoogleSearch', function() {
         HTMLObject.innerHTML = GoogleSearchBoxRendered.getDOMNode().innerHTML;
 
         //AssertEqual (compare what you are expecting with what you actually have)
-        expect(HTMLObject.getElementsByTagName('input').length.parseInt()).toEqual(ExpectedLength);
+        expect(parseInt(HTMLObject.getElementsByTagName('input').length)).toEqual(ExpectedLength);
     });
 });
