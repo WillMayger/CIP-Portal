@@ -267,3 +267,9 @@ body {
     width:100%;
     min-height:600px;
 }
+
+.news_h1 {
+    color:grey;
+    text-align:center;
+    margin:auto;
+}
