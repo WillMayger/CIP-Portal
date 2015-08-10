@@ -1,0 +1,47 @@
+#google_search_box{
+	width:300px;
+	float:left;
+	margin-left:23%;
+	padding-top:20px;
+}
+
+
+
+
+
+.glyphicon {
+	color:#0066A1;
+	font-size: 18px;
+	z-index: 20;
+	cursor: pointer;
+}
+.glyphicon:hover {
+	color:#002b42;
+}
+.glyphicon-search{	
+	position: relative;
+	left: 310px;
+	top: -26px;
+}
+
+@media(max-width:1065px){
+	#google_search_box{
+		margin-left:2%;
+	}
+}
+
+
+@media(max-width:873px){
+	#google_search_box{
+		float:none;
+		clear:both;
+		width:200px;
+		margin:auto;
+		text-align:center;
+
+	}
+	.glyphicon-search{
+
+		left: 120px;
+	}
+}

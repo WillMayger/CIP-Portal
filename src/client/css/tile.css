@@ -21,6 +21,27 @@
     margin: auto;
 }
 
+@media (max-width:1110px){
+    .tileList {
+        width: 575px;
+    } 
+}
+
+@media (max-width:845px){
+    .tileList {
+        width: 410px;
+    } 
+}
+
+@media (max-width:380px){
+    .tileList {
+        width: 200px;
+        height: 1000px;
+
+    } 
+}
+
+
 #tileTitle {
     color:#006DAB;
     font-size: 32px;

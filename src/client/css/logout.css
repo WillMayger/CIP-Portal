@@ -10,4 +10,20 @@
 .Logout{
     text-align: right;
     padding-top: 8px;
+
 }
+
+@media(max-width:873px){
+	#logout-container{
+		float:none;
+		clear:both;
+		width:200px;
+		margin:auto;
+		text-align:center;
+
+	}
+	.Logout{
+		text-align: center;
+	}
+}
+
