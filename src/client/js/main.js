@@ -8,7 +8,6 @@ var NewsBox = require('./components/news.js').NewsBox;
 var TileBox = require('./components/tiles.js').TileBox;
 var LogoutBox = require('./components/Logout.js').LogoutBox;
 var ShoutBox = require('./components/ShoutBox.js').ShoutBox;
-console.log(document.getElementById('sh'));
 
 
 React.render(
@@ -48,7 +47,7 @@ var shoutbox_data = [{
 
 React.render(
   <ShoutBox data={shoutbox_data} />,
-  document.getElementById('sh')
+  document.getElementById('shout_box_container')
 );
 
 
