@@ -10,6 +10,15 @@ var LogoutBox = require('./components/Logout.js').LogoutBox;
 var ShoutBox = require('./components/ShoutBox.js').ShoutBox;
 console.log(document.getElementById('shout_box_container'));
 
+var data = [{
+      "email": "someEmail@canopy-cloud.com",
+}];
+
+var shoutbox_data = [{
+      "user_name": "someEmail@canopy-cloud.com",
+      "message": "example"
+}];
+
 React.render(
   <GoogleSearchBox />,
   document.getElementById('google_search_box')
@@ -26,11 +35,6 @@ React.render(
   document.getElementById('news_box')
 );
 
-var shoutbox_data = [{
-      "user_name": "someEmail@canopy-cloud.com",
-      "message": "example"
-}];
-
 React.render(
   <ShoutBox data={shoutbox_data} />,
   document.getElementById('shout_box_container')
@@ -40,10 +44,6 @@ React.render(
   <TileBox url="tiles/" />,
   document.getElementById('tiles_box')
 );
-
-var data = [{
-      "email": "someEmail@canopy-cloud.com",
-}];
 
 React.render(
   <LogoutBox data={data} />,
