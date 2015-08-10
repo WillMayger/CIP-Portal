@@ -40,4 +40,14 @@ React.render(
   document.getElementById('logout')
 );
 
+var shoutbox_data = [{
+      "user_name": "someEmail@canopy-cloud.com",
+      "message": "example",
+}];
+
+React.render(
+  <ShoutBox data={shoutbox_data} />,
+  document.getElementById('shout_box_container')
+);
+
 
