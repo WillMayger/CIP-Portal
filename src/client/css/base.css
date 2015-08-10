@@ -20,7 +20,8 @@
 }
 
 .content {
-    margin: 10px;
+    margin: 0px;
+    min-height: 600px;
     background-image: url('/css/tulips.png') !important;
 }
 
