@@ -22,6 +22,10 @@
 .content {
     margin: 0px;
     min-height: 600px;
+    
+}
+
+.upper {
     background-image: url('/css/tulips.png') !important;
 }
 
