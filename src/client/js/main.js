@@ -8,7 +8,7 @@ var NewsBox = require('./components/news.js').NewsBox;
 var TileBox = require('./components/tiles.js').TileBox;
 var LogoutBox = require('./components/Logout.js').LogoutBox;
 var ShoutBox = require('./components/ShoutBox.js').ShoutBox;
-
+console.log(document.getElementById('shout_box_container'));
 
 React.render(
   <GoogleSearchBox />,
@@ -26,6 +26,16 @@ React.render(
   document.getElementById('news_box')
 );
 
+var shoutbox_data = [{
+      "user_name": "someEmail@canopy-cloud.com",
+      "message": "example"
+}];
+
+React.render(
+  <ShoutBox data={shoutbox_data} />,
+  document.getElementById('shout_box_container')
+);
+
 React.render(
   <TileBox url="tiles/" />,
   document.getElementById('tiles_box')
@@ -40,14 +50,6 @@ React.render(
   document.getElementById('logout')
 );
 
-var shoutbox_data = [{
-      "user_name": "someEmail@canopy-cloud.com",
-      "message": "example"
-}];
 
-React.render(
-  <ShoutBox data={shoutbox_data} />,
-  document.getElementById('shout_box_container')
-);
 
 
