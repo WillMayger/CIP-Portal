@@ -2,7 +2,7 @@
 var React = require('../../../../node_modules/react/react.js');
 
 //This TileBox component will put tiles into the html for the user.
-var LogoutBox = React.createClass({
+var ShoutBox = React.createClass({
   //renders the html
   render: function() {
     return (
@@ -65,7 +65,7 @@ var ShoutBoxInput = React.createClass({
 
 //rendering the react to the html
 module.exports = {
-  LogoutBox : LogoutBox,
-  LogoutUserInfoBox : LogoutUserInfoBox,
-  Logout : Logout
+  ShoutBox : ShoutBox,
+  ShoutBoxMessage : ShoutBoxMessage,
+  ShoutBoxInput : ShoutBoxInput
 };

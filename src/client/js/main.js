@@ -3,6 +3,7 @@ var React = require('react');
 var moment = require('moment');
 
 var GoogleSearchBox = require('./components/GoogleSearch.js');
+var ShoutBox = require('./components/ShoutBox.js').ShoutBox;
 var DateBox = require('./components/DateBox.js');
 var NewsBox = require('./components/news.js').NewsBox;
 var TileBox = require('./components/tiles.js').TileBox;
