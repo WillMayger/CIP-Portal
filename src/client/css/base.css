@@ -266,6 +266,8 @@ body {
 .below_main{
     width:100%;
     min-height:600px;
+    text-align:center;
+    margin:auto;
 }
 
 .news_h1 {
