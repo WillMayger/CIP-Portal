@@ -1,5 +1,4 @@
-
-/*//this is important for when you import your component
+//this is important for when you import your component
 jest.dontMock('../src/client/js/components/ShoutBox.js');
 
 var data = [{
@@ -33,4 +32,4 @@ describe('ShoutBoxMessage', function() {
         expect(ShoutBoxMessageRenderedWithClass.getDOMNode().textContent).toEqual(Expected);
 
 	});
-}); */
+});

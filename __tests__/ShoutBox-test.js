@@ -1,5 +1,5 @@
 //this is important for when you import your component
-/*
+
 jest.dontMock('../src/client/js/components/ShoutBox.js');
 
 var data = [{
@@ -42,4 +42,3 @@ describe('ShoutBox', function() {
 
     });
 });
-*/

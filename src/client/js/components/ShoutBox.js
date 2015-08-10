@@ -1,5 +1,5 @@
 /** @jsx React.DOM */
-/*
+
 var React = require('../../../../node_modules/react/react.js');
 
 //This TileBox component will put tiles into the html for the user.
@@ -26,7 +26,7 @@ var ShoutBoxMessage = React.createClass({
         <h3>{user.message}</h3>
         <h4><i> - {user.user_name}</i></h4>
       </div>
-
+      )
     return (
       <div>{UserMessage}</div>
     );
@@ -69,4 +69,4 @@ module.exports = {
   ShoutBox : ShoutBox,
   ShoutBoxMessage : ShoutBoxMessage,
   ShoutBoxInput : ShoutBoxInput
-};*/
+};
