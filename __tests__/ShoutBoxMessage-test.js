@@ -17,7 +17,7 @@ describe('ShoutBoxMessage', function() {
         var ShoutBoxMessage = require('../src/client/js/components/ShoutBox.js').ShoutBoxMessage;
         var TestUtils = React.addons.TestUtils;
 
-        var Expected = "This is a React and Node Component / Microservice!";
+        var Expected = data[0]['message'] + " - " + data[0]['user_name'];
 
         //rendered component
         var ShoutBoxMessageComp = TestUtils.renderIntoDocument(

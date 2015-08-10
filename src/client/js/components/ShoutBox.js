@@ -45,6 +45,9 @@ var ShoutBoxInput = React.createClass({
     console.log("send to api: '"+UserMessage+" - "+Email+ "'");
 
   },
+  getInitialState: function() {
+        return { value: '' };
+  },
   handleChange: function(event) {
           this.setState({value: event.target.value});
   },
