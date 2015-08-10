@@ -261,3 +261,9 @@ body {
 #date_box {
     display:inline;
 }
+
+
+.below_main{
+    width:100%;
+    min-height:600px;
+}
