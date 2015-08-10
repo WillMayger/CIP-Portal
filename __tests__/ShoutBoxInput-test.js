@@ -1,4 +1,5 @@
-//this is important for when you import your component
+
+/*//this is important for when you import your component
 jest.dontMock('../src/client/js/components/ShoutBox.js');
 
 //unit test for Logout component
@@ -34,4 +35,4 @@ describe('ShoutBoxInput', function() {
         expect(HTMLObject.getElementsByTagName('input')[0]getAttribute("type").toString()).toEqual(ExpectedType);
 
     });
-});
+});*/
