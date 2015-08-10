@@ -253,8 +253,8 @@ body {
     border: 1px solid #006DAB;
 }
 
-body {
-    background-color:none;
+html, body {
+    background-color:transparent !important; 
 }
 
 #date_box {
@@ -290,4 +290,5 @@ height: auto;
 transform: translateX(-50%) translateY(-50%);
 background: url(tulips.png) no-repeat;
 background-size: cover;
+z-index:-1;
 }
