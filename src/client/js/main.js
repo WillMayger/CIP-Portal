@@ -8,7 +8,7 @@ var NewsBox = require('./components/news.js').NewsBox;
 var TileBox = require('./components/tiles.js').TileBox;
 var LogoutBox = require('./components/Logout.js').LogoutBox;
 var ShoutBox = require('./components/ShoutBox.js').ShoutBox;
-
+console.log(document.getElementById('sh'));
 
 
 React.render(
