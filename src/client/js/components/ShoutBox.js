@@ -30,8 +30,8 @@ var ShoutBoxMessage = React.createClass({
     return (
       <div>{UserMessage}</div>
     );
-  }  
-});
+  })  
+}});
 
 
 var ShoutBoxInput = React.createClass({
