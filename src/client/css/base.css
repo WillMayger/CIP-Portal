@@ -257,3 +257,7 @@ body {
 body {
     background-color:none;
 }
+
+#date_box {
+    display:inline;
+}
