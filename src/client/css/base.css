@@ -1,6 +1,5 @@
 .navbar-default {
     background-color: #0066A1;
-    border-color: white;
     border-radius: 0px;
     margin-bottom: 0px;
 }
@@ -23,7 +22,6 @@
 
 .content {
     margin: 10px;
-    background-color: #F2F1F1;
 }
 
 .navbar-default .navbar-nav > .dropdown > a {
