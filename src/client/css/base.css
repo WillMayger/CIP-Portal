@@ -26,7 +26,6 @@
 }
 
 .upper {
-   margin-top: -55%;
    background:  url("css/vid.mp4") no-repeat fixed center;
 }
 
@@ -279,9 +278,11 @@ body {
 }
 
 #bgvid {
+    position: fixed;
     width:100%;
     min-width: 100%;
     width: auto;
     height: auto;
     z-index: -100;
+    background-size: cover;
 }
