@@ -26,12 +26,13 @@ var ShoutBoxMessage = React.createClass({
         <h3>{user.message}</h3>
         <h4><i> - {user.user_name}</i></h4>
       </div>
-      )
+      );
+    });
     return (
       <div>{UserMessage}</div>
     );
-  })  
-}});
+  }  
+});
 
 
 var ShoutBoxInput = React.createClass({
