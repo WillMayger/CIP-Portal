@@ -43,7 +43,7 @@ React.render(
 
 var shoutbox_data = [{
       "user_name": "someEmail@canopy-cloud.com",
-      "message": "example",
+      "message": "example"
 }];
 
 React.render(
