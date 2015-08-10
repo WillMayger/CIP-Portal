@@ -1,7 +1,6 @@
 #google_search_box{
-	width:300px;
-	float:left;
-	margin-left:23%;
+	width:50%;
+	margin:auto;
 	padding-top:20px;
 }
 
@@ -20,7 +19,7 @@
 }
 .glyphicon-search{	
 	position: relative;
-	left: 310px;
+	left: 51%;
 	top: -26px;
 }
 
