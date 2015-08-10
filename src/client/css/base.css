@@ -49,6 +49,11 @@
     margin-left: 10px;
 }
 
+.navbar-right {
+    padding-top: 28px;
+    display:inline;
+}
+
 .controls {
     margin-bottom: 20px;
 }
