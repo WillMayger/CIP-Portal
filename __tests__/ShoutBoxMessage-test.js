@@ -1,6 +1,11 @@
 //this is important for when you import your component
 jest.dontMock('../src/client/js/components/ShoutBox.js');
 
+var data = [{
+                "user_name": "someEmail@canopy-cloud.com",
+                "message": "This is a React and Node Component / Microservice!",
+           }];
+
 //unit test for Logout component
 describe('ShoutBoxMessage', function() {
     it('Displaying last message', function() {
@@ -16,7 +21,7 @@ describe('ShoutBoxMessage', function() {
 
         //rendered component
         var ShoutBoxMessageComp = TestUtils.renderIntoDocument(
-            <ShoutBoxMessage message={Expected} />
+            <ShoutBoxMessage data={data} />
         );
 
         //getting the rendered component with the class you want to look in
