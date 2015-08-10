@@ -27,6 +27,7 @@
 
 .upper {
    margin-top: -55%;
+   background:  url("css/vid.mp4") no-repeat fixed center;
 }
 
 .navbar-default .navbar-nav > .dropdown > a {
