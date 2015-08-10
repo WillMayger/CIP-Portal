@@ -31,7 +31,7 @@ describe('ShoutBoxInput', function() {
 
         //Assert Equal checking that the text is being rendered
         expect(parseInt(HTMLObject.getElementsByTagName('input').length)).toEqual(ExpectedLength);
-        expect(HTMLObject.getElementsByTagName('input')[0]getAttribute("type").toString()).toEqual(ExpectedType);
+        expect(HTMLObject.getElementsByTagName('input')[0].getAttribute("type").toString()).toEqual(ExpectedType);
 
     });
 });
