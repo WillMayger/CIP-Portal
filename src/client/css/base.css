@@ -227,12 +227,11 @@
 }
 
 html {
-    background-color: #F2F1F1;
+    
     color:white;
 }
 
 body {
-    background-color: #F2F1F1;
     color:white;
 }
 
@@ -268,6 +267,7 @@ body {
     min-height:600px;
     text-align:center;
     margin:auto;
+    background-color:#F2F1F1;
 }
 
 .news_h1 {
