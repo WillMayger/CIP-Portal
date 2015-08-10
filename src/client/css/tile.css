@@ -1,6 +1,6 @@
 .tile {
-    height: 165px;
-    width: 165px;
+    height: 150px;
+    width: 150px;
     overflow: hidden;
     display: inline-block;
     color: white;
@@ -14,7 +14,7 @@
 
 .tileList {
     height: 420px;
-    width: 710px;
+    width: 650px;
     margin: auto;
 }
 
