@@ -16,7 +16,7 @@ var data = [{
 
 var shoutbox_data = [{
       "user_name": "someEmail@canopy-cloud.com",
-      "message": "example"
+      "message": "This is the shoutbox!"
 }];
 
 React.render(
