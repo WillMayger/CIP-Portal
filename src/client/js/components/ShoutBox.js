@@ -8,27 +8,8 @@ var ShoutBox = React.createClass({
   render: function() {
     return (
       <div className="shout_box">
-        <ShoutBoxMessage data={this.props.data} />
-        <ShoutBoxInput />
+        <ShoutBoxInput data={this.props.data} />
       </div>
-    );
-  }  
-});
-
-
-var ShoutBoxMessage = React.createClass({
-  //renders the html
-  render: function() {
-
-    var UserMessage = this.props.data.map(function (user) {
-      return (
-        <div className="shout_box_message">
-        <h4>{user.message}<i> - {user.user_name}</i></h4>
-      </div>
-      );
-    });
-    return (
-      <div>{UserMessage}</div>
     );
   }  
 });
@@ -45,7 +26,7 @@ var ShoutBoxInput = React.createClass({
 
   },
   getInitialState: function() {
-        return { value: '' };
+        return { value: {this.props.data[0]["message"] + " - " + this.props.data[0]["user_name"]}};
   },
   handleChange: function(event) {
           this.setState({value: event.target.value});
@@ -70,6 +51,5 @@ var ShoutBoxInput = React.createClass({
 //rendering the react to the html
 module.exports = {
   ShoutBox : ShoutBox,
-  ShoutBoxMessage : ShoutBoxMessage,
   ShoutBoxInput : ShoutBoxInput
 };
