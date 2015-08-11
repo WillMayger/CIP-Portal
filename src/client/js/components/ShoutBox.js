@@ -26,7 +26,7 @@ var ShoutBoxInput = React.createClass({
 
   },
   getInitialState: function() {
-        return { value: this.props.data[0]["message"] + " - " + this.props.data[0]["user_name"]};
+        return { value: '"' + this.props.data[0]["message"] + '" - ' + this.props.data[0]["user_name"]};
   },
   handleChange: function(event) {
           this.setState({value: event.target.value});
