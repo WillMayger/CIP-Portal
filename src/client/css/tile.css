@@ -1,10 +1,12 @@
+.tileBox{padding-top:-40px;}
+
 .tile {
-    height: 150px;
-    width: 150px;
+    height: 120px;
+    width: 120px;
     overflow: hidden;
     display: inline-block;
     color: white;
-    margin: 5px;
+    margin: 1px;
     font-weight: bold;
 }
 
@@ -14,7 +16,7 @@
 
 .tileList {
     height: 420px;
-    width: 650px;
+    width: 570px;
     margin: auto;
 }
 
