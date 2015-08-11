@@ -48,10 +48,11 @@
 
 .navbar-brand {
     margin-left: 10px;
+    padding:0px;
 }
 
 .navbar-right {
-    padding-top: 45px;
+    padding-top: 25px;
     display:inline;
 }
 
