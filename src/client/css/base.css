@@ -270,6 +270,7 @@ html, body {
     text-align:center;
     margin:auto;
     background-color:#F2F1F1;
+        margin-top: 50px;
 }
 
 .news_h1 {
@@ -293,4 +294,8 @@ transform: translateX(-50%) translateY(-50%);
 background: url(tulips.png) no-repeat;
 background-size: cover;
 z-index:-1;
+}
+
+#news_box{
+        margin-top: 50px;
 }
