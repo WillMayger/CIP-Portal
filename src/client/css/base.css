@@ -299,3 +299,7 @@ z-index:-1;
 #news_box{
         margin-top: 50px;
 }
+
+.navbar-brand img {
+   width: 66%;
+}

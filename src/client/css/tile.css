@@ -8,6 +8,9 @@
     color: white;
     margin: 10px;
     font-weight: bold;
+    border: solid white 2px;
+    border-radius: 7px;
+    box-shadow: 3px 3px 16px grey;
 }
 
 .tile:hover {
