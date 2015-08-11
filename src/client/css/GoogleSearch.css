@@ -7,7 +7,10 @@
 }
 
 #google_search_box input{
-		border-radius:0px;
+		background-color: rgba(132, 122, 122, 0.50);
+		font-size: 20px;
+		color:white;
+}
 }
 
 

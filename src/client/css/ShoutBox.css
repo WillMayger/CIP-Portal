@@ -10,7 +10,8 @@
 }
 
 #shout_box_input{
-	background-color: rgba(132, 122, 122, 0.50);
+	background-color: transparent;
+	border:0px;
 	font-size: 20px;
 	color:white;
 }
