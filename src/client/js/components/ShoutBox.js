@@ -38,8 +38,7 @@ var ShoutBoxInput = React.createClass({
     return (
       <div className="shout_box_input">
       <input type="text" className="form-control" id="shout_box_input" value={this.state.value} onChange={this.handleChange}>
-      </input>
-      <button onClick={this.SendInfo}>submit</button>
+      </input> <span class="glyphicon glyphicon-menu-right" aria-hidden="true" onClick={this.SendInfo} ></span>
       </div>
     );
   }  
