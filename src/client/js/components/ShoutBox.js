@@ -23,8 +23,7 @@ var ShoutBoxMessage = React.createClass({
     var UserMessage = this.props.data.map(function (user) {
       return (
         <div className="shout_box_message">
-        <h3>{user.message}</h3>
-        <h4><i> - {user.user_name}</i></h4>
+        <h4>{user.message}<i> - {user.user_name}</i></h4>
       </div>
       );
     });
