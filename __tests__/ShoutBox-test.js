@@ -19,7 +19,7 @@ describe('ShoutBox', function() {
         var ShoutBox = require('../src/client/js/components/ShoutBox.js').ShoutBox;
         var TestUtils = React.addons.TestUtils;
 
-        var Expected = data[0]['message'] + " - " + data[0]['user_name'];
+        var Expected = '"' + data[0]["message"] + '" - ' + data[0]["user_name"];
         var ExpectedLength = 1;
 
         //rendered component
