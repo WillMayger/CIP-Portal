@@ -37,7 +37,6 @@ describe('ShoutBox', function() {
         HTMLObject.innerHTML = ShoutBoxRenderedWithClass.getDOMNode().innerHTML;
 
         //Assert Equal checking that the text is being rendered
-        expect(ShoutBoxRenderedWithClass.getDOMNode().textContent).toEqual(Expected);
         expect(parseInt(HTMLObject.getElementsByTagName('input').length)).toEqual(ExpectedLength);
         expect(HTMLObject.getElementsByTagName('input')[0].getAttribute("value").toString()).toEqual(Expected);
 
