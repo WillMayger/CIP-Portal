@@ -1,12 +1,11 @@
 #shout_box_container{
-	margin-top:-200px;
-    width: 40%;
+    width: 100%;
     text-align: center;
     margin: auto;
 }
 
 .shout_box {
-	margin-top:-200px;
+	margin-top:110px;
 }
 
 #shout_box_input{
