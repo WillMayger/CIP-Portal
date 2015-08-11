@@ -4,3 +4,4 @@ dist
 clear
 node_modules
 .DS_Store
+server_coverage
