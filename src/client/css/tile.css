@@ -1,4 +1,4 @@
-.tileBox{padding-top:-40px;}
+#tileBox{padding-top:-40px;}
 
 .tile {
     height: 120px;
@@ -6,7 +6,7 @@
     overflow: hidden;
     display: inline-block;
     color: white;
-    margin: 1px;
+    margin: 10px;
     font-weight: bold;
 }
 
