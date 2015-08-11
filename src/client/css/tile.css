@@ -18,7 +18,7 @@
 }
 
 .tileList {
-    height: 420px;
+    max-height: 420px;
     width: 570px;
     margin: auto;
 }
