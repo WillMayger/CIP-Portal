@@ -19,7 +19,7 @@ describe('ShoutBox', function() {
         var ShoutBox = require('../src/client/js/components/ShoutBox.js').ShoutBox;
         var TestUtils = React.addons.TestUtils;
 
-        var Expected = data[0]['message'] + " - " + data[0]['user_name'] + "submit";
+        var Expected = data[0]['message'] + " - " + data[0]['user_name'];
         var ExpectedLength = 1;
 
         //rendered component
@@ -39,6 +39,7 @@ describe('ShoutBox', function() {
         //Assert Equal checking that the text is being rendered
         expect(ShoutBoxRenderedWithClass.getDOMNode().textContent).toEqual(Expected);
         expect(parseInt(HTMLObject.getElementsByTagName('input').length)).toEqual(ExpectedLength);
+        expect(HTMLObject.getElementsByTagName('input')[0].getAttribute("value").toString()).toEqual(Expected);
 
     });
 });
